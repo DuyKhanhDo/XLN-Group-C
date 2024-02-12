@@ -123,14 +123,14 @@ body{
 .bot, .user{
     display: flex;
     align-items: flex-start;
-    color: #eee;
+    color: #000000;
     width: 100%;
     padding: 15px 7px 15px 10px;
     border-radius: 6px;
 }
 
 .bot{
-    background-color: #444654;
+    background-color: #ffffff;
 }
 
 #chat-log #user-icon i{
