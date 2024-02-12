@@ -1,46 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>XLN Assistant chatbot</title>
+    <title>XLN ChatBot</title>
 </head>
-<body>
-    <nav>
-        <div class="sidebar">
 
-        </div>
-    </nav>
+<body>
+
     <div class="container">
         <div class="header">
-            <h3>Group-C ChatBot</h3>
+            <h3>XLN Chatbot</h3>
         </div>
 
         <div class="info">
-
-            How can I help you today?
+            <a href="https://github.com/DuyKhanhDo/XLN-Group-C" target="_blank">
+                Coded By Team C
+            </a>
         </div>
-    </div>
-    <main>
-        <div class="chat-main">
-            <div class="chat-log">
 
-            </div>
+        <div class="chat-container">
+            <div id="chat-log"></div>
         </div>
 
         <div class="input-container">
-            <input type="text" placeholder="Type your message here..." class="user-input">
-            <button class="send-btn" id="button-icon"><i class="fas fa-paper-plane"></i></button>
+            <input type="text" id="user-input" placeholder="Send a message.">
+            <button id="send-button">
+                <i class="fa-solid fa-paper-plane" id="button-icon"></i>
+            </button>
         </div>
-        
 
-    </main>
+    </div>
 
-    <footer>
 
-    </footer>
     <script src="index.js"></script>
 </body>
+
 </html>
